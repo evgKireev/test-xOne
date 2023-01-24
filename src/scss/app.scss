@@ -1,0 +1,35 @@
+@import '_vars.scss';
+@import '_media.scss';
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Mulish', Roboto, system-ui, Tahoma, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: $bg;
+  color: $title;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 80px 0 111px;
+  margin: 0 auto;
+}
+
+@media (max-width: 680px) {
+  .container {
+    padding: 0 50px 0 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 0 20px 0 20px;
+  }
+}

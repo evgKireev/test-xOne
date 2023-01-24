@@ -1,0 +1,51 @@
+@import '../../scss/vars';
+.card {
+  width: 290px;
+  transition: all 0.5s;
+  border-radius: 14.9968px;
+  color: #fff;
+  overflow: hidden;
+  img {
+    object-fit: cover;
+    width: 290px;
+    height: 234px;
+  }
+  &:hover {
+    transform: scale(0.9);
+    transition: all 0.5s;
+    cursor: pointer;
+    color: $acsent;
+  }
+}
+
+@media (max-width: 1125px) {
+  .card {
+    width: 184px;
+    img {
+      object-fit: cover;
+      width: 184px;
+      height: 152px;
+    }
+  }
+}
+@media (max-width: 790px) {
+  .card {
+    width: 154px;
+    img {
+      object-fit: cover;
+      width: 154px;
+      height: 122px;
+    }
+  }
+}
+
+@media (max-width: 365px) {
+  .card {
+    width: 290px;
+    img {
+      object-fit: cover;
+      width: 290px;
+      height: 234px;
+    }
+  }
+}

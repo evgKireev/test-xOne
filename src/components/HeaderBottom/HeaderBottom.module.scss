@@ -1,0 +1,163 @@
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 54px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 71px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-family: MyFont;
+  max-width: 515px;
+  margin-bottom: 20px;
+}
+
+.subTitle {
+  font-size: 11.9974px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+
+.btn {
+  max-width: 280px;
+  margin-left: 40px;
+}
+
+.images {
+  position: relative;
+  width: 683px;
+  height: 465px;
+}
+
+.label {
+  position: absolute;
+  top: -85px;
+  left: 130px;
+}
+
+@media (max-width: 1110px) {
+  .title {
+    font-size: 63px;
+    line-height: 67px;
+    max-width: 625px;
+    margin-bottom: 15px;
+  }
+  .subTitle {
+    font-size: 10px;
+    line-height: 24px;
+    margin-bottom: 27px;
+  }
+  .label {
+    top: -70px;
+    left: 82px;
+    width: 190px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .inner {
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+  .title {
+    font-size: 42px;
+    line-height: 56px;
+    max-width: 425px;
+    margin-bottom: 5px;
+  }
+  .subTitle {
+    font-size: 8px;
+    line-height: 18px;
+    margin-bottom: 27px;
+  }
+  .label {
+    top: -54px;
+    left: 80px;
+    width: 140px;
+  }
+  .btn {
+    max-width: 260px;
+    margin-left: 0;
+  }
+  .images {
+    position: relative;
+    width: 400px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 860px) {
+  .inner {
+    margin-bottom: 50px;
+  }
+  .images {
+    width: 330px;
+    height: 250px;
+  }
+  .label {
+    top: -27px;
+    left: 66px;
+    width: 88px;
+  }
+
+  .title {
+    font-size: 38px;
+    line-height: 45px;
+    max-width: 370px;
+    margin-bottom: 2px;
+  }
+  .btn {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 860px) {
+  .btn {
+    max-width: 200px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 600px) {
+  .images {
+    width: 330px;
+    height: 250px;
+  }
+
+  .label {
+    top: -21px;
+    left: 40px;
+    width: 60px;
+  }
+}
+
+@media (max-width: 560px) {
+  .inner {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .images {
+    width: 338px;
+    height: 254px;
+  }
+
+  .label {
+    top: -25px;
+    left: 88px;
+    width: 85px;
+  }
+  .title {
+    text-align: start;
+  }
+  .subTitle {
+    text-align: start;
+  }
+}

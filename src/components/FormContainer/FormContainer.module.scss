@@ -1,0 +1,45 @@
+.form {
+  padding: 40px;
+  width: 574px;
+  margin: 0 auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.title {
+  font-family: 'CAT Linz';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #f9f4f1;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 650px) {
+  .form {
+    padding: 30px;
+    width: 524px;
+  }
+}
+
+@media (max-width: 570px) {
+  .form {
+    text-align: center;
+    padding: 20px;
+    top: 57%;
+    width: 360px;
+  }
+  .title {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .form {
+    width: 320px;
+  }
+}

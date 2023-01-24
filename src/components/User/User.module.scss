@@ -1,0 +1,40 @@
+@import '../../scss/vars';
+
+.wrapper {
+  position: relative;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.logAut {
+  color: $acsent;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }
+}
+
+.svg {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .svg {
+    display: block;
+    color: $acsent;
+    width: 24px;
+    height: 24px;
+  }
+  .logAut {
+    display: none;
+  }
+}

@@ -1,0 +1,76 @@
+@import '../../scss/vars';
+
+.spinner {
+  text-align: center;
+}
+
+.innerInput {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 54px;
+}
+
+.btn {
+  padding: 10px 50px;
+  margin-bottom: 32px;
+  max-width: 158px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.textLink {
+  text-align: center;
+  font-weight: 500;
+  color: #80858b;
+  span {
+    color: $acsent;
+    opacity: 30%;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover {
+      color: $acsent;
+      transition: all 0.5s;
+      opacity: 100%;
+    }
+  }
+}
+
+.innerInp {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  right: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    color: $acsent;
+    transition: all 0.5s;
+  }
+}
+
+
+@media (max-width: 578px) {
+  .input {
+    height: 40px;
+    font-size: 12px;
+  }
+  .spanQ {
+    margin-bottom: 25px;
+  }
+  .btn {
+    max-width: 100%;
+  }
+  .eye {
+    top: 10px;
+  }
+  .innerInput {
+    margin-bottom: 150px;
+  }
+}

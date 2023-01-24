@@ -1,0 +1,127 @@
+@import '../../scss/vars';
+.inner {
+  display: flex;
+  gap: 33px;
+  margin-bottom: 80px;
+}
+
+.images {
+  border-radius: 16px;
+  overflow: hidden;
+  width: 826px;
+  img {
+    object-fit: cover;
+  }
+}
+
+.info {
+  background: #2b2b2d;
+  border-radius: 16px;
+  width: 370px;
+  height: 163px;
+  padding: 30px 41px 30px 18px;
+}
+
+.title {
+  font-family: 'CAT Linz';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.items {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.item {
+  font-size: 12px;
+  line-height: 15px;
+  color: #ff9110;
+  background: rgba(255, 145, 16, 0.1);
+  border-radius: 100px;
+  padding: 4px 15px;
+  margin-bottom: 16px;
+}
+
+.res {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  padding: 0 15px;
+}
+
+@media (max-width: 1300px) {
+  .images {
+    max-width: 750px;
+  }
+  .title {
+    font-size: 27px;
+  }
+  .res {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 850px) {
+  .title {
+    font-size: 24px;
+  }
+  .res {
+    font-size: 12px;
+  }
+  .info {
+    width: 370px;
+    height: 163px;
+    padding: 20px;
+  }
+  .inner {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .images {
+    max-width: 580px;
+  }
+  .inner {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 720px) {
+  .images {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 550px) {
+  .inner{
+    align-items: center;
+  }
+  .images {
+    max-width: 370px;
+  }
+}
+
+
+@media (max-width: 330px) {
+  .inner{
+    align-items: center;
+  }
+  .images {
+    max-width: 310px;
+  }
+  .info {
+    width: 310px;
+    padding: 10px;
+  }
+}
+
