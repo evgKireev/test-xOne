@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/test-xOne/static/css/main.2637d989.css",
+    "main.js": "/test-xOne/static/js/main.78c82a08.js",
+    "static/media/AnyConv.com__cat-linz.woff": "/test-xOne/static/media/AnyConv.com__cat-linz.bd4e0ae2c3c957d96ed2.woff",
+    "static/media/Macbook_Mockup.png": "/test-xOne/static/media/Macbook_Mockup.edc8fa3b6d89ae966471.png",
+    "static/media/label.png": "/test-xOne/static/media/label.6b0a958b8887d3cd5d7b.png",
+    "index.html": "/test-xOne/index.html",
+    "main.2637d989.css.map": "/test-xOne/static/css/main.2637d989.css.map",
+    "main.78c82a08.js.map": "/test-xOne/static/js/main.78c82a08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2637d989.css",
+    "static/js/main.78c82a08.js"
+  ]
+}
